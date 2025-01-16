@@ -35,14 +35,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## Next steps
--[ ] move away from Pinecode (probably to something simple, self hosted, like Weaviate or PG Vector) as I like to have true ownership over the platform that is hosting my data (What if Pinecone changes pricing/privacy policy/terms of service)?
--[ ] pagination
--[ ] authentication
--[ ] no caching
--[ ] i'm not using row level security - it's just faster to do it without RLS
-- I now have a flat db table, not very efficient in case you want to search for multiple tweets from the same user - plus we are storing duplicated data.  
-
-With more time
-- I would improve the UI
-- I would make it more secure, scalable and efficient
